@@ -1,4 +1,4 @@
-package com.liferay.users.web.util;
+package com.liferay.users.web.display.context;
 
 import com.liferay.portal.kernel.dao.search.EmptyOnClickRowChecker;
 import com.liferay.portal.kernel.dao.search.RowChecker;

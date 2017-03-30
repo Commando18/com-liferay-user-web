@@ -18,7 +18,7 @@ page import="com.liferay.portal.kernel.util.*" %><%@
 page import="com.liferay.portal.kernel.workflow.WorkflowConstants" %><%@
 page import="com.liferay.portal.util.PropsValues" %><%@
 page import="com.liferay.users.web.constants.UserWebPortletKeys" %><%@
-page import="com.liferay.users.web.util.UserDisplayContext" %>
+page import="com.liferay.users.web.display.context.UserDisplayContext" %>
 
 <%@ page import="java.util.List" %>
 
