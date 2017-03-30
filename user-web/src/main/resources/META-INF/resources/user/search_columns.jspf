@@ -22,7 +22,7 @@
 
 		<liferay-ui:search-container-column-jsp
 			cssClass="entry-action-column"
-			path="/bundle_action.jsp"
+			path="/user_action.jsp"
 		/>
 	</c:when>
 	<c:when test='<%= displayStyle.equals("icon") %>'>
@@ -35,7 +35,7 @@
 			orderable="<%= true %>"
 		>
 			<liferay-frontend:user-vertical-card
-				actionJsp="/bundle_action.jsp"
+				actionJsp="/user_action.jsp"
 				actionJspServletContext="<%= application %>"
 				cssClass="entry-display-style"
 				resultRow="<%= row %>"
@@ -63,7 +63,7 @@
 
 		<liferay-ui:search-container-column-jsp
 			cssClass="entry-action-column"
-			path="/bundle_action.jsp"
+			path="/user_action.jsp"
 		/>
 	</c:otherwise>
 </c:choose>

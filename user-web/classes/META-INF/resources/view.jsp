@@ -99,8 +99,6 @@ boolean showRestoreButton = (userDisplayContext.getStatus() != WorkflowConstants
 	</liferay-frontend:management-bar-action-buttons>
 </liferay-frontend:management-bar>
 
-<h1><%= searchContainerId %></h1>
-
 <aui:form action="<%= portletURL.toString() %>" cssClass="container-fluid-1280" method="post" name="fm" onSubmit='<%= "event.preventDefault(); " + renderResponse.getNamespace() + "search();" %>'>
 	<liferay-portlet:renderURLParams varImpl="portletURL" />
 	<aui:input name="<%= Constants.CMD %>" type="hidden" />

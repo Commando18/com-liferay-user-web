@@ -31,7 +31,7 @@ page import="com.liferay.users.web.display.context.UserDisplayContext" %>
 <portlet:defineObjects />
 
 <%
-UserDisplayContext usersDisplayContext = new UserDisplayContext(request, liferayPortletRequest, liferayPortletResponse, portletPreferences);
+UserDisplayContext userDisplayContext = new UserDisplayContext(request, liferayPortletRequest, liferayPortletResponse, portletPreferences);
 
 PortalPreferences portalPreferences = PortletPreferencesFactoryUtil.getPortalPreferences(liferayPortletRequest);
 %>
