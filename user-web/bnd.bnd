@@ -1,0 +1,7 @@
+Bundle-Name: Liferay Bundle Web
+Bundle-SymbolicName: com.liferay.bundle.web
+Bundle-Version: 1.0.0
+
+Import-Package:\
+	javax.net.ssl,\
+	*
